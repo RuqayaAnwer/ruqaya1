@@ -1,0 +1,8 @@
+#carouselExampleInterval {
+  padding-top: 30%;
+  max-width: 50%; /* قم بتحديد العرض الأقصى للسلايدر كنصف عرض الصفحة */
+  margin: 0 auto; /* وسط السلايدر أفقياً */
+  position: relative; /* تمكين التحكم في الوضع */
+  top: 50%; /* نصف ارتفاع الصفحة */
+  transform: translateY(-50%); /* رفع السلايدر بنصف ارتفاعه للأعلى */
+}

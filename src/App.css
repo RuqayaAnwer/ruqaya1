@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;1,100&family=Tajawal&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+}
+.navbar{
+    background: #e7e5ed;
+}

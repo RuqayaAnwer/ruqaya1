@@ -1,0 +1,44 @@
+/* تنسيق الكارتين */
+.card-group {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* المسافة بين الكارتين */
+  }
+  
+  .card {
+    width: 10%; /* عرض الكارت */
+    margin-bottom: 50px; /* المسافة بين الكارت والأسفل */
+    border: 1px solid #ccc; /* حدود الكارت */
+    border-radius: 5px; /* زاوية الكارت */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* ظل الكارت */
+    transition: transform 0.3s ease; /* تأثير التحويل عند التحريك */
+  }
+  
+  .card:hover {
+    transform: scale(0.95); /* تصغير الكارت عند التحويل */
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 5px; /* زاوية الصورة العلوية اليسرى */
+    border-top-right-radius: 5px; /* زاوية الصورة العلوية اليمنى */
+  }
+  
+  .card-body {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  @media (max-width: 768px) {
+    .card {
+      width: 80%; /* حجم الكروت في أجهزة الجوال */
+    }
+  }
+  

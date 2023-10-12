@@ -1,0 +1,43 @@
+/* تنسيق الصفحة الرئيسية */
+.homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .homepage .content {
+    position: relative;
+  }
+  
+  .homepage img {
+    min-width: 100%; /* تأكد من أن الصورة لن تصغر أبدًا أكثر من عرض الصفحة */
+    min-height: 80vh; /* تحديد ارتفاع الصورة ليغطي ارتفاع الصفحة بالكامل */
+    object-fit: cover; /* للتأكد من تغطية الصورة للعرض والارتفاع بشكل كامل */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height:80%;
+    background-color: rgba(212, 207, 207, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .overlay h1 {
+    font-size: 2rem;
+  }
+  
+  /* تحسين استجابية الصفحة */
+  @media (max-width: 768px) {
+    .homepage .content {
+      width: 90%;
+    }
+  }
+  
