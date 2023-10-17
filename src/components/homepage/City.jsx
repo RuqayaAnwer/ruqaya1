@@ -8,29 +8,27 @@ function City() {
     <>
       <div className="card-group">
         <Link className="card" to="/services/babil"  >
+          <div className="card-img-container">
           <img
-            src="https://www.datocms-assets.com/88015/1682054067-k7a7228-1.jpg?auto=compress%2Cformat&dpr=1&fit=clip&q=40&w=900"
+            src="/images/babil.jpg"
             className="card-img-top"
             alt="..."
           />
+
+          </div>
+         
           <div className="card-body">
-            <h5 className="card-title" style={{ textAlign: "center" }}>
-              {" "}
-              بابل
-            </h5>
+            <h5 className="card-title">بابل</h5>
           </div>
         </Link>
-        <Link className="card" to="/services/babil">
+        <Link className="card" to="/services/baghdad">
           <img
-            src="https://www.datocms-assets.com/88015/1682054067-k7a7228-1.jpg?auto=compress%2Cformat&dpr=1&fit=clip&q=40&w=900"
+            src="/images/bagh.jpg"
             className="card-img-top"
             alt="..."
           />
           <div className="card-body">
-            <h5 className="card-title" style={{ textAlign: "center" }}>
-              {" "}
-              بغداد
-            </h5>
+            <h5 className="card-title">بغداد</h5>
           </div>
         </Link>
       </div>

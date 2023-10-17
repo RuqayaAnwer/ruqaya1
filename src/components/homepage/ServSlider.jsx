@@ -1,35 +1,83 @@
 import React from 'react'
+import Marquee from 'react-fast-marquee'
 import '../style.css/servslider.css'
+
 
 function ServSlider() {
   return (
-    <>
-   <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
-  <div className="carousel-inner">
-    <div className="carousel-item active" data-bs-interval={10000}>
-      <img src="https://www.datocms-assets.com/88015/1682054067-k7a7228-1.jpg?auto=compress%2Cformat&dpr=1&fit=clip&q=40&w=900" className="d-block w-100" alt="..." />
-    </div>
-    <div className="carousel-item" data-bs-interval={2000}>
-      <img src="https://images.pexels.com/photos/699459/pexels-photo-699459.jpeg?auto=compress&cs=tinysrgb&w=600" alt="..." />
-    </div>
-    <div className="carousel-item">
-      <img src="https://www.datocms-assets.com/88015/1682054067-k7a7228-1.jpg?auto=compress%2Cformat&dpr=1&fit=clip&q=40&w=900" className="d-block w-100" alt="..." />
-    </div>
-  </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true" />
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true" />
-    <span className="visually-hidden">Next</span>
-  </button>
-</div>
+    <div className='slider'>
+        
+     
+        <Marquee speed={100}
+          loop={0}
+        pauseOnClick>
+         <div className='marquee-style' >
+        
+         
+          <div className="marquee-item">
+            <p>تنظيم مناسبات اجتماعية</p>
+              <img src='/images/tma1.jpg' alt="tma" />
+              
+            </div>
+            <div className="marquee-item">
+            <p>تجهيز حنة ومهر</p>
+              <img src='/images/hena22.jpeg' alt="hena"   />
+            </div>
+            <div className="marquee-item">
+            <p>تزيين أعياد ميلاد</p>
+              <img src='/images/hbd3.jpg' alt="hpd" />
+              
+            </div>
+            <div className="marquee-item">
+            <p>تزيين غرف ولادة</p>
+              <img src='/images/tzeenbby4.jpeg' alt="tzeen"/>
+          </div>
 
-  
-    </>
-  );
-  
-};
+
+          <div className="marquee-item">
+            <p>حفل معرفة جنس الجنين</p>
+              <img src='/images/b&g5.jpg' alt="bg" />
+              
+          </div>
+          
+          <div className="marquee-item">
+            <p>تصوير فوتوغرافي</p>
+              <img src='/images/photo.jpg' alt="phot" />
+              
+          </div>
+          
+          <div className="marquee-item">
+            <p>كيك</p>
+              <img src='/images/cake7.jpg' alt="cake" />
+              
+          </div>
+          
+          <div className="marquee-item">
+            <p>هدايا</p>
+              <img src='/images/gift8.jpg' alt="gift" />
+              
+          </div>
+          
+          <div className="marquee-item">
+            <p>ورد</p>
+              <img src='/images/flower9.jpg' alt="flower" />
+              
+          </div>
+          <div className="marquee-item">
+            <p>هاند ميد</p>
+              <img src='/images/hand10.jpg' alt="hand" />
+              
+            </div>
+         
+            
+          </div>
+           
+              
+
+        </Marquee>
+      </div>
+      
+  )
+}
 
 export default ServSlider

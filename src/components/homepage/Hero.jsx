@@ -5,11 +5,11 @@ function Hero() {
     <div className="homepage">
     <div className="content">
       <img
-        src="https://www.datocms-assets.com/88015/1682054067-k7a7228-1.jpg?auto=compress%2Cformat&dpr=1&fit=clip&q=40&w=900"
+        src="/images/boqyy.jpg"
         alt="..."
       />
       <div className="overlay">
-        <h1>أهلاً بك في موقع بوقي</h1>
+        <h1> اهلا بكم في الموقع الاول المختص بتنظيم وتجهيز المناسبات كافة<span className='span'> ...بوقي  </span></h1>
       </div>
     </div>
   </div>

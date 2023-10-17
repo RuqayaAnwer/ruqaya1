@@ -1,19 +1,21 @@
-import React from 'react'
-import '../style.css/orginfo.css'
+import React from 'react';
+import '../style.css/orginfo.css';
 
-function OrgInfo() {
+function OrgInfo({ FilteredData }) {
+  console.log(FilteredData);
+
+  if (!FilteredData || FilteredData.length === 0) {
+    return <div>لا توجد بيانات متاحة</div>;
+  }
+
   return (
     <div className="contact-container">
-    <div className="contact-item">
-      <div className="label">رقم الهاتف:</div>
-      <div className="value">0123456789</div>
+      <div className="contact-item">
+        <div className="label">:رقم الهاتف</div>
+        <div className="value">{FilteredData[0].phone}</div>
+      </div>
     </div>
-    <div className="contact-item">
-      <div className="label">البريد الإلكتروني:</div>
-      <div className="value">example@example.com</div>
-    </div>
-  </div>
-  )
+  );
 }
 
-export default OrgInfo
+export default OrgInfo;

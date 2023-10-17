@@ -1,43 +1,68 @@
-/* تنسيق الصفحة الرئيسية */
+:root {
+  font-size: 16px; /* حجم الخط الأساسي للشاشات العادية */
+}
 .homepage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
-  
-  .homepage .content {
-    position: relative;
-  }
-  
-  .homepage img {
-    min-width: 100%; /* تأكد من أن الصورة لن تصغر أبدًا أكثر من عرض الصفحة */
-    min-height: 80vh; /* تحديد ارتفاع الصورة ليغطي ارتفاع الصفحة بالكامل */
-    object-fit: cover; /* للتأكد من تغطية الصورة للعرض والارتفاع بشكل كامل */
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height:80%;
-    background-color: rgba(212, 207, 207, 0.5);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-  }
-  
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  border-radius: 10%;
+
+}
+
+.homepage .content {
+  position: relative;
+  width: 90vw; 
+  height: 70vh; 
+  border-radius: 10%;
+
+}
+
+.homepage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 2%;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+background: #99776876;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  color:white;
+  text-align: center;
+  border-radius: 8%;
+
+}
+.span{
+  color: rgba(118, 9, 9, 0.808);
+  font-weight:1000;
+  box-shadow: rgb(255, 157, 157);
+}
+
+.overlay h1 {
   .overlay h1 {
     font-size: 2rem;
   }
   
-  /* تحسين استجابية الصفحة */
-  @media (max-width: 768px) {
-    .homepage .content {
-      width: 90%;
+}
+
+@media (max-width: 768px) {
+  .homepage .content {
+    :root {
+      font-size: 14px;
+    width: 90%;
+    height: 60vh;
     }
   }
-  
+}

@@ -1,8 +1,37 @@
-#carouselExampleInterval {
-  padding-top: 30%;
-  max-width: 50%; /* قم بتحديد العرض الأقصى للسلايدر كنصف عرض الصفحة */
-  margin: 0 auto; /* وسط السلايدر أفقياً */
-  position: relative; /* تمكين التحكم في الوضع */
-  top: 50%; /* نصف ارتفاع الصفحة */
-  transform: translateY(-50%); /* رفع السلايدر بنصف ارتفاعه للأعلى */
+.slider{
+  margin-top: 1px;
+  text-align: center;
+  border: 0 solid red;
+
+}
+.marquee-style{
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  padding: 4rem;
+  gap: 3rem;
+  justify-content: space-between;
+  
+
+}
+.title{
+  font-size: 1rem;
+  margin-bottom: 50px;
+padding: 10%;
+width: fit-content;
+}
+.marquee-item{
+  margin: 0px 30px;
+  font-weight: 1000;
+  font-size: large;
+
+  
+}
+.marquee-item img{
+  border-radius: 10%;
+  width: 17rem;
+  height: 20rem;
+  object-fit: cover;
+
+
 }

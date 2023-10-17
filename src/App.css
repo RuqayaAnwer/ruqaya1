@@ -9,3 +9,38 @@
 .navbar{
     background: #e7e5ed;
 }
+/* .container-form {
+    display: flex;
+    border: 1px solid red;
+    width: auto;
+} */
+  
+  /* تحديد نسبة العرض لكل عنصر بنسبة 50% */
+  /* .Forma {
+    width: 50%;
+  }
+   */
+ /* .swiper-slide{
+    width: 50%;
+  } */
+  .contact-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contact-form {
+    
+   
+    border: 1px solid #c60c0c;
+    display: flex;
+  }
+  
+  .contact-cards-container {
+    flex-basis: 48%; /* نصف الصفحة الأيمن */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  

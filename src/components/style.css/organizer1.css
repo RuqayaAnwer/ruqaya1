@@ -1,0 +1,49 @@
+/* تنسيق العناصر الرئيسية */
+.organaizer {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 0fr); /* ثلاثة أعمدة */
+  gap: 10px; /* المسافة بين العناصر */
+  /* justify-items: center;  */
+  justify-content: center;
+  }
+  
+  /* تنسيق العناصر المرنة وتوزيعها بشكل أفقي ووسطها على الصفحة */
+  .flex {
+    display:contents;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* تنسيق كل كارت */
+  .cards {
+    width: 200px; /* حجم الكارت */
+    margin: 10px; /* المسافة بين الكروت */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  /* تصغير الكارت عند التحويل */
+  .cards:hover {
+    transform: scale(0.95);
+  }
+  
+  /* تنسيق الصور داخل الكروت */
+  .cards img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  /* تنسيق عنوان الخدمة أسفل الصورة */
+  .organizer {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  

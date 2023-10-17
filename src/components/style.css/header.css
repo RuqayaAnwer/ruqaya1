@@ -1,34 +1,68 @@
-li{
-    text-decoration: none;
-    list-style: none;
+/* styles.css */
 
-}
 .navbar {
-    display: flex;
-    justify-content: space-between;
-   align-items: center;
-   height: 10vh;
-   box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
-}
-.nav-links{
-    height: 10vh;
-    line-height: 10vh;
-    display: flex;
-    justify-content: flex-end;
-    width: 75%;
-}
-.container{
-    max-width: 90%;
-    margin: auto;
+    background-color: #ffeed0c0; /* لون خلفية الشريط */
+    color: #fff; /* لون النص */
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.nav-links li {
-    color: black;
-    font-size: 20ppx;
-    padding: 0 10px;
-    margin: 0 10px;
-    cursor: pointer;
-    text-transform: capitalize;
-}
+    padding: 1rem 2rem;
+  }
+  .logo{
+    width: 30vw;
+  }
+  .navbar-toggler{
+    display: none;
+  }
+  
+  .navbar .logo img {
+    width: 50px; /* عرض الشعار */
+    height: auto;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    font-weight: 1000;
+    gap: 1rem; /* المسافة بين الأزرار */
+  }
+  
+  .nav-links a {
+    color: #474242; /* لون الروابط */
+    text-decoration: none;
+    
+  }
+  
+  /* تنسيق الزر النشط (الصفحة الحالية) */
+  .nav-links a.active {
+    font-weight: bold;
+    /* يمكنك تخصيص المزيد من الخصائص حسب رغبتك */
+  }
+  .menu-button{
+    display:flex;
+  }
+  /* قم بتحويل النافبار إلى قائمة عند تصغير الشاشة */
+@media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+
+    }
+  
+    .menu-button {
+      display:inline; /* اعرض زر القائمة */
+    }
+  
+    .menu.active {
+      display: block; /* اعرض محتوى النافبار */
+    }
+  }
+  
+  

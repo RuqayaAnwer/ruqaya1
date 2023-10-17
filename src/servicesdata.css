@@ -1,22 +1,21 @@
-/* في ملف servicesdata.css */
 
-/* تنسيق العناصر الرئيسية */
 .serv {
     text-align: center;
+    margin: 0 auto;
     padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 0fr); /* ثلاثة أعمدة */
+    gap: 10px; /* المسافة بين العناصر */
+    /* justify-items: center;  */
+    justify-content: center;
   }
   
-  /* تنسيق حقل الإدخال */
-  input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
+  
+ 
   
   /* تنسيق العناصر المرنة وتوزيعها بشكل أفقي ووسطها على الصفحة */
   .flex {
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -25,7 +24,7 @@
   .cards {
     width: 200px; /* حجم الكارت */
     margin: 10px; /* المسافة بين الكروت */
-    border: 1px solid #ccc;
+    border: 1px solid #ee2626;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
@@ -49,5 +48,11 @@
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 0;
+  }
+  @media (max-width: 768px){
+    .serv{
+      
+      flex-direction: column;
+    }
   }
   

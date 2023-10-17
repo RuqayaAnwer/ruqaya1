@@ -25,65 +25,73 @@ function Forma() {
   });
 
   return (
-    <form  className="form" onSubmit={formik.handleSubmit}>
-      <div>
-        <h3> قدم استفسارك هنا</h3>
-        <label htmlFor="name">الاسم:</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          onChange={formik.handleChange}
-          onBlur={formik.handleBlur}
-          value={formik.values.name}
-        />
-        {formik.touched.name && formik.errors.name ? (
-          <div>{formik.errors.name}</div>
-        ) : null}
+    <div className="grid-container">
+      
+
+
+      <div className="form-container">
+        <form className="form" onSubmit={formik.handleSubmit}>
+          <div>
+            <h3 style={{textAlign:"center"}}>قدم استفسارك هنا</h3>
+            <label htmlFor="name">الاسم:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+              value={formik.values.name}
+            />
+            {formik.touched.name && formik.errors.name ? (
+              <div>{formik.errors.name}</div>
+            ) : null}
+          </div>
+          <div>
+            <label htmlFor="phoneNumber">رقم الهاتف:</label>
+            <input
+              type="text"
+              id="phoneNumber"
+              name="phoneNumber"
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+              value={formik.values.phoneNumber}
+            />
+            {formik.touched.phoneNumber && formik.errors.phoneNumber ? (
+              <div>{formik.errors.phoneNumber}</div>
+            ) : null}
+          </div>
+          <div>
+            <label htmlFor="eventDate">تاريخ المناسبة:</label>
+            <input
+              type="date"
+              id="eventDate"
+              name="eventDate"
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+              value={formik.values.eventDate}
+            />
+            {formik.touched.eventDate && formik.errors.eventDate ? (
+              <div>{formik.errors.eventDate}</div>
+            ) : null}
+          </div>
+          <div>
+            <label htmlFor="comment">التعليق:</label>
+            <textarea
+              id="comment"
+              name="comment"
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+              value={formik.values.comment}
+            />
+            {formik.touched.comment && formik.errors.comment ? (
+              <div>{formik.errors.comment}</div>
+            ) : null}
+          </div>
+          <button type="submit">إرسال</button>
+        </form>
       </div>
-      <div>
-        <label htmlFor="phoneNumber">رقم الهاتف:</label>
-        <input
-          type="text"
-          id="phoneNumber"
-          name="phoneNumber"
-          onChange={formik.handleChange}
-          onBlur={formik.handleBlur}
-          value={formik.values.phoneNumber}
-        />
-        {formik.touched.phoneNumber && formik.errors.phoneNumber ? (
-          <div>{formik.errors.phoneNumber}</div>
-        ) : null}
-      </div>
-      <div>
-        <label htmlFor="eventDate">تاريخ المناسبة:</label>
-        <input
-          type="date"
-          id="eventDate"
-          name="eventDate"
-          onChange={formik.handleChange}
-          onBlur={formik.handleBlur}
-          value={formik.values.eventDate}
-        />
-        {formik.touched.eventDate && formik.errors.eventDate ? (
-          <div>{formik.errors.eventDate}</div>
-        ) : null}
-      </div>
-      <div>
-        <label htmlFor="comment">التعليق:</label>
-        <textarea
-          id="comment"
-          name="comment"
-          onChange={formik.handleChange}
-          onBlur={formik.handleBlur}
-          value={formik.values.comment}
-        />
-        {formik.touched.comment && formik.errors.comment ? (
-          <div>{formik.errors.comment}</div>
-        ) : null}
-      </div>
-      <button type="submit">إرسال</button>
-    </form>
+      
+    </div>
   );
 }
 
