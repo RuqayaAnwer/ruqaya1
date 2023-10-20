@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 1rem 15rem;
   }
   .logo{
     width: 30vw;
@@ -28,7 +28,7 @@
   }
   
   .nav-links a {
-    color: #474242; /* لون الروابط */
+    color: #430303; /* لون الروابط */
     text-decoration: none;
     
   }
@@ -44,25 +44,47 @@
   /* قم بتحويل النافبار إلى قائمة عند تصغير الشاشة */
 @media (max-width: 768px) {
     .navbar {
-      flex-direction: column;
-      align-items: flex-start;
+      flex-direction: row;
+      align-items: center;
+      padding: 0rem;
+
     }
   
     .nav-links {
       display: none;
-      flex-direction: column;
-      align-items: flex-start;
-      width: 100%;
+      position: relative;
 
+     
+      
+
+    }
+    .navbar-toggler{
+      display: flex;
+      
     }
   
     .menu-button {
-      display:inline; /* اعرض زر القائمة */
+      display:flex; /* اعرض زر القائمة */
     }
   
     .menu.active {
-      display: block; /* اعرض محتوى النافبار */
+      display: flex; /* اعرض محتوى النافبار */
+      position: absolute;
+      flex-direction: column;
+      top: 5rem;
+      background-color: antiquewhite;
+      z-index: 990;
+      width: 10rem;
+      height: 5rem;
+      gap: 0.5rem;
+      justify-content: center;
+      align-items: center;
+      
+      
     }
+  }
+  .menu.active ul{
+    
   }
   
   

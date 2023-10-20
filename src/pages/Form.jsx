@@ -23,8 +23,18 @@ function Form() {
   return (
     <>
       <OrgInfo FilteredData={FilteredData} />
-      <SliderWork  FilteredData={FilteredData}/>
-      <Forma />
+      <div className="containerform">
+        <div className="formainfo">
+          <Forma/>
+        </div>
+        <div className="sliderinfo">
+          <h1 style={{textAlign:"center"}}>صور من اعمالهم </h1>
+          <SliderWork/>
+        </div>
+      </div>
+      
+      {/* <SliderWork  FilteredData={FilteredData}/> */}
+      {/* <Forma /> */}
      
     </>
   );

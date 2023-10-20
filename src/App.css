@@ -23,7 +23,7 @@
  /* .swiper-slide{
     width: 50%;
   } */
-  .contact-us {
+  /* .contact-us {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,9 +38,10 @@
   
   .contact-cards-container {
     flex-basis: 48%; /* نصف الصفحة الأيمن */
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
     align-items: center;
-  }
+  } */ 
+  
   
   

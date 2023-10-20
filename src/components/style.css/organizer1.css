@@ -1,49 +1,56 @@
-/* تنسيق العناصر الرئيسية */
-.organaizer {
-  text-align: center;
-  margin: 0 auto;
-  padding: 20px;
-  display: grid;
-  grid-template-columns: repeat(4, 0fr); /* ثلاثة أعمدة */
-  gap: 10px; /* المسافة بين العناصر */
-  /* justify-items: center;  */
+.organaizer{
+  display: flex;
+  flex-direction: row;
+  /* width: 50%; */
+  flex-wrap: wrap;
   justify-content: center;
-  }
+  /* border: 5px solid rgb(72, 0, 255); */
+  padding: 5rem 0rem;
+  border-radius: 10px;
+  gap: 20px;
+
+}
+.orginfo {
   
-  /* تنسيق العناصر المرنة وتوزيعها بشكل أفقي ووسطها على الصفحة */
-  .flex {
-    display:contents;
-    flex-wrap: wrap;
-    justify-content: center;
+  width:20%; 
+  padding: 10px;
+  object-fit: cover;
+ 
+  /* border:  1px solid red; */
+}
+
+
+
+
+
+
+
+
+.orginfo a {
+  text-decoration:double;
+  text-align: center;
+  color: #600a0ace;
+  display: block;
+}
+
+.orginfo a img {
+  display: grid;
+  width: 100%; 
+  height: auto;
+}
+
+.orginfo a h6 {
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .organaizer {
+    flex-direction: column; 
   }
-  
-  /* تنسيق كل كارت */
-  .cards {
-    width: 200px; /* حجم الكارت */
-    margin: 10px; /* المسافة بين الكروت */
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+
+  .orginfo {
+    width: 100%; 
   }
-  
-  /* تصغير الكارت عند التحويل */
-  .cards:hover {
-    transform: scale(0.95);
-  }
-  
-  /* تنسيق الصور داخل الكروت */
-  .cards img {
-    max-width: 100%;
-    height: auto;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-  }
-  
-  /* تنسيق عنوان الخدمة أسفل الصورة */
-  .organizer {
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 0;
-  }
-  
+} 

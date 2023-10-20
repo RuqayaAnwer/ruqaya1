@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./servicesdata.css";
+ import "./servicesdata.css";
 import { useParams } from "react-router-dom";
 
 function ServicesData() {
@@ -65,20 +65,21 @@ function ServicesData() {
 
   const showServices = true;
   return (
-    <div className="serv">
+    <div className="serve-data" >
       {showServices ? (
         <>
          
-          <div className="flex flex-warp justify-center">
             {services.map((service) =>{
               return (
+                <div className="cards-serve">
+                
                 <Link to={`/orginiser/${service.city}/${service.id}`}>
-                  <img src={service.img} alt={service.name} className="cards" />
+                  <img src={service.img} alt={service.name} className="cardsimg" />
                   <h6 className="service">{service.name}</h6>
-                </Link>
+                  </Link>
+                  </div>
               );
             })}
-          </div>
         </>
       ) : (
         <p>you can not the services</p>

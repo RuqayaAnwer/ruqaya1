@@ -1,5 +1,5 @@
 :root {
-  font-size: 16px; /* حجم الخط الأساسي للشاشات العادية */
+  font-size: 16px; 
 }
 .homepage {
   position: relative;
@@ -45,7 +45,7 @@ background: #99776876;
 
 }
 .span{
-  color: rgba(118, 9, 9, 0.808);
+  color: rgb(249, 210, 18);
   font-weight:1000;
   box-shadow: rgb(255, 157, 157);
 }

@@ -23,7 +23,7 @@
   border-radius: 15px; /* زاوية الكارت */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* ظل الكارت */
   transition: transform 0.3s ease; 
-  background-color: #f0ab8da2;
+  background-color: #f8dcd08f;
   /* تأثير التحويل عند التحريك */
 
 }
@@ -45,12 +45,16 @@
 .card-body {
   padding: 30px;
   text-align: center;
+  text-decoration: none;
+  
 }
 
-.card-title {
+.card-title  {
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 0;
+  text-decoration: none;
+  
 }
 @media (max-width: 768px) {
   .card {

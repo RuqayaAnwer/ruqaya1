@@ -1,26 +1,28 @@
-/* تنسيق الصفحة بالكامل */
 .grid-container {
     display: grid;
     grid-template-columns:1fr 1fr; /* تقسيم الصفحة إلى نصفين */
     gap: 20px; /* مسافة بين النصفين */
-    max-width: 600px; /* تحديد العرض الأقصى للصفحة */
-    margin: 0 auto; /* توسيط الصفحة */
-    padding: 20px; /* تباعد داخلي */
+    width: 50%; /* تحديد العرض الأقصى للصفحة */
+    margin: 20px 60px; /* توسيط الصفحة */
+    padding: 20px;
+    /* تباعد داخلي */
   }
   
   /* تنسيق نموذج النموذج */
-  .form-container {
-    background-color: #f4f4f4; /* لون خلفية النموذج */
+  rm-container {
+    background-color: #ea640a; /* لون خلفية النموذج */
     padding: 20px; /* تباعد داخلي */
-    border-radius: 5px; /* إضافة زوايا مستديرة */
+    border-radius: 5px; 
+    /* إضافة زوايا مستديرة */
   }
   
   .form {
-    text-align: right; /* محاذاة النص إلى اليمين */
+    text-align: right; 
+    /* محاذاة النص إلى اليمين */
   }
   
   .form h3 {
-    font-size: 24px; /* حجم الخط للعنوان */
+    font-size:35px; /* حجم الخط للعنوان */
   }
   
   .form label {
@@ -33,28 +35,21 @@
   .form textarea {
     width: 100%;
     padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
+    margin: 5px auto;
+    border: 1px solid #fffafa;
     border-radius: 5px;
   }
   
   .form button {
-    background-color: #007BFF;
+    background-color: #f41515;
     display: flex;
-    color: #fff;
+    color: #302b2b;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
   }
   
-  /* تنسيق السلايدر أو المحتوى الإضافي (يرجى استبدال التعليمات) */
-  .slider-container {
-    background-color: #fff; /* لون خلفية السلايدر أو المحتوى */
-    padding: 20px; /* تباعد داخلي */
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
   
-  /* يمكنك إضافة المزيد من الأنماط والتعديلات حسب احتياجات تصميم موقع الويب الخاص بك */
+  
   

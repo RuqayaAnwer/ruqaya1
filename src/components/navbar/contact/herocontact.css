@@ -1,0 +1,26 @@
+.contentt{
+    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.contentt img{
+    width: 45%;
+    height: 50%;
+    position: relative; 
+    border-radius: 10%;
+    padding-top: 20px;
+}
+.h{
+    padding-bottom:0;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+@media (max-width: 768px) {
+     .contentt img {
+      
+   width: 80%;;
+      
+    }
+  }

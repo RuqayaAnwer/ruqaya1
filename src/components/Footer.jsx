@@ -13,8 +13,8 @@ function Footer() {
           </div>
           <div className="col-md-4 col-lg-4 col-12">
             <h3>تواصل معنا</h3>
-            <p><i className="fas fa-phone"></i> 077275083935</p>
-            <p><i className="fas fa-envelope"></i> boqy@gmail.com</p>
+            <p><i className="fas fa-phone"></i> 07859160096</p>
+            <p><i className="fas fa-envelope"></i> eng.ruqayaanwar@gmail.com</p>
           </div>
           <div className="col-md-5 col-lg-4 col-12">
             <img src={logo} alt="لوجو" width={100} height={75} />

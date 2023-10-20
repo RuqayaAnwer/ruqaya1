@@ -28,9 +28,12 @@ function Navbar() {
          
           <button className="navbar-toggler" type="button" onClick={toggleMenu}>
           <span className="navbar-toggler-icon" />
-          </button>
-          <img src={ logo} alt="Logo" width={100} height={70} className="d-inline-block align-text-top"  />
+      </button>
       
+     
+      <Link to="/"><img src={logo} alt="Logo" width={100} height={70} className="d-inline-block align-text-top" />
+      </Link>
+          
     </nav>
   );
 }

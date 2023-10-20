@@ -28,16 +28,18 @@ function Organizer1() {
   return (
     <div className="organaizer">
     
-      <div className="flex flex-warp justify-center">
+      
         {FilteredData.map((organizer) => {
           return (
+            <div className="orginfo">
             <Link to={`/orginiser/form/${organizer.city}/${organizer.id}`}>
-              <img src={organizer.img} alt={organizer.name} className="cards" />
+              <img src={organizer.img} alt={organizer.name} />
               <h6 className="organizer">{organizer.name}</h6>
-            </Link>
+              </Link>
+              </div>
           );
         })}
-      </div>
+      
     </div>
   );
 }

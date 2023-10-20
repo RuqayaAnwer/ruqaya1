@@ -1,21 +1,20 @@
-import React from 'react';
+ import "./formcontact.css"
+import React from "react"
 
-function ContactForm() {
-  // هنا يمكنك تنفيذ مكون نموذج الاتصال
-  return (
+const Form = () => {
+  return <div className="form">
+    <h1 className="h" style={{textAlign:"center"}}>تواصل معنا</h1>
     <form>
-      <label htmlFor="name">الاسم:</label>
-      <input type="text" id="name" name="name" />
-
-      <label htmlFor="email">البريد الإلكتروني:</label>
-      <input type="email" id="email" name="email" />
-
-      <label htmlFor="message">الرسالة:</label>
-      <textarea id="message" name="message"></textarea>
-
-      <button type="submit">إرسال</button>
+      <label>اسمك</label>
+      <input type="text"></input>
+      <label>البريد الألكتروني</label>
+      <input type="email"></input>
+      <label>الموضوع</label>
+      <input type="text"></input>
+      <label>رسالتك</label>
+      <textarea rows="6" placeholder="اكتب رسالتك هنا" />
+      <button className="btn" style={{alignItems:"center",background:"red"}}>ارسال</button>
     </form>
-  );
-}
-
-export default ContactForm;
+  </div>
+};
+export default Form;

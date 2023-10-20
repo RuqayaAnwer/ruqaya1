@@ -19,8 +19,10 @@ function Forma() {
       comment: Yup.string().required("حقل التعليق مطلوب"),
       eventDate: Yup.date().required("حقل تاريخ المناسبة مطلوب"),
     }),
-    onSubmit: (values) => {
+    onSubmit: (values, { resetForm }) => {
       console.log("تم إرسال البيانات:", values);
+      // قم بتفريغ الفورم بعد الإرسال
+      resetForm();
     },
   });
 
@@ -29,7 +31,7 @@ function Forma() {
       
 
 
-      <div className="form-container">
+      <div className="formainfo">
         <form className="form" onSubmit={formik.handleSubmit}>
           <div>
             <h3 style={{textAlign:"center"}}>قدم استفسارك هنا</h3>

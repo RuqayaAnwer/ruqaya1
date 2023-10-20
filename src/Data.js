@@ -1,7 +1,7 @@
 export const organizersBaghdad = [
   {
     id:1,
-    name: "Ruqaya",
+    name: "Ruqkaya",
     img: "/images/boqyy.jpg",
     servicesIds: [1, 2, 3],
     city:"bag",
@@ -9,7 +9,7 @@ export const organizersBaghdad = [
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] },
   {
     id:2,
-    name: "Ruqaya",
+    name: "Ruqjaya",
     img: "/images/boqyy.jpg",
     servicesIds: [1, 2, 3],
     city:"bag",
@@ -19,7 +19,7 @@ export const organizersBaghdad = [
   },
   {
     id:3,
-    name: "Ruqaya",
+    name: "Ruqahya",
     img: "/images/boqyy.jpg",
     servicesIds: [1, 2, 3],
     city:"bag",
@@ -29,9 +29,9 @@ export const organizersBaghdad = [
   },
   {
     id:4,
-    name: "Ruqaya",
+    name: "Ruqgaya",
     img: "/images/boqyy.jpg",
-    servicesIds: [4, 5, 6],
+    servicesIds: [1,2,3],
     city:"bag",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
@@ -39,9 +39,9 @@ export const organizersBaghdad = [
   },
   {
     id:5,
-    name: "Ruqaya",
+    name: "Ruqfaya",
     img: "/images/boqyy.jpg",
-    servicesIds: [4, 5, 6],
+    servicesIds: [4,5,6],
     city:"bag",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
@@ -49,9 +49,9 @@ export const organizersBaghdad = [
   },
   {
     id:6,
-    name: "Ruqaya",
+    name: "Ruqdaya",
     img: "/images/boqyy.jpg",
-    servicesIds: [7, 8, 9],
+    servicesIds: [4,5,6],
     city:"bag",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
@@ -59,9 +59,9 @@ export const organizersBaghdad = [
   },
   {
     id:7,
-    name: "Ruqaya",
+    name: "Ruqsaya",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 8, 7],
+    servicesIds: [4,5,6],
     city:"bag",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
@@ -69,9 +69,9 @@ export const organizersBaghdad = [
   },
   {
     id:8,
-    name: "Ruqaya",
+    name: "Ruqaaya",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 6, 9],
+    servicesIds: [4,5,6],
     city:"bag",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
@@ -79,9 +79,9 @@ export const organizersBaghdad = [
   },
   {
     id:9,
-    name: "Ruqaya",
+    name: "Ruqaypa",
     img: "/images/boqyy.jpg",
-    servicesIds: [8, 9, 10],
+    servicesIds: [4,5,6],
     city:"bag",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
@@ -89,9 +89,9 @@ export const organizersBaghdad = [
   },
   {
     id:10,
-    name: "Ruqaya",
+    name: "Ruqaoya",
     img: "/images/boqyy.jpg",
-    servicesIds: [1, 2, 3],
+    servicesIds: [7,8,9],
     city:"bag",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
@@ -99,9 +99,9 @@ export const organizersBaghdad = [
   },
   {
     id:11,
-    name: "Ruqaya",
+    name: "Ruqaiya",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds: [7,8,9],
     city:"bag",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
@@ -109,9 +109,9 @@ export const organizersBaghdad = [
   },
   {
     id:12,
-    name: "Ruqaya",
+    name: "Ruqauya",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds:  [7,8,9],
     city:"bag",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
@@ -119,49 +119,49 @@ export const organizersBaghdad = [
   },
   {
     id:13,
-    name: "Ruqaya",
+    name: "Ruqyaya",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds:  [7,8,9],
     city:"bag",
     phone: '07800077393',
   },
   {
     id:14,
-    name: "Ruqaya",
+    name: "Ruqatya",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds:  [7,8,9],
     city:"bag",
     phone: '07800077393',
   },
   {
     id:15,
-    name: "Ruqaya",
+    name: "Ruqraya",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds: [10],
     city:"bag",
     phone: '07800077393',
   },
   {
     id:16,
-    name: "Ruqaya",
+    name: "Ruqeaya",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds: [10],
     city:"bag",
     phone: '07800077393',
   },
   {
     id:17,
-    name: "Ruqaya",
+    name: "Ruqaqya",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds: [10],
     city:"bag",
     phone: '07800077393',
   },
   {
     id:18,
-    name: "Ruqaya",
+    name: "Ruqwaya",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds: [10],
     city:"bag",
     phone: '07800077393',
   },
@@ -169,26 +169,26 @@ export const organizersBaghdad = [
     id:19,
     name: "Ruqaya",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds: [10],
     city:"bag",
     phone: '07800077393',
   },
-  {
-    id:20,
-    name: "Ruqaya",
-    img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
-    city:"bag",
-    phone: '07800077393',
-  },
-  {
-    id:21,
-    name: "Ruqaya",
-    img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
-    city:"bag",
-    phone: '07800077393',
-  },
+  // {
+  //   id:20,
+  //   name: "Ruqaya",
+  //   img: "/images/boqyy.jpg",
+  //   servicesIds: [10, 2, 3],
+  //   city:"bag",
+  //   phone: '07800077393',
+  // },
+  // {
+  //   id:21,
+  //   name: "Ruqaya",
+  //   img: "/images/boqyy.jpg",
+  //   servicesIds: [10, 2, 3],
+  //   city:"bag",
+  //   phone: '07800077393',
+  // },
 
 ];
 
@@ -197,7 +197,7 @@ export const organizersBaghdad = [
 export const organizersBabil = [
   {
     id:51,
-    name: "Ruqaya",
+    name: "هيا لتجهيز الاعراس والمناسبات",
     img: "/images/boqyy.jpg",
     servicesIds: [1, 2, 3],
     city:"babil",
@@ -207,9 +207,9 @@ export const organizersBabil = [
   },
   {
     id:52,
-    name: "Ruqaya",
+    name: "تجهيزات لالي",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds: [1, 2, 3],
     city:"babil",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
@@ -217,9 +217,9 @@ export const organizersBabil = [
   },
   {
     id:53,
-    name: "Ruqaya",
+    name: "لندا للمناسبات",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds: [1, 2, 3],
     city:"babil",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
@@ -227,9 +227,9 @@ export const organizersBabil = [
   },
   {
     id:54,
-    name: "Ruqaya",
+    name: "تجهيزات بارتي",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds: [1, 2, 3],
     city:"babil",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
@@ -237,7 +237,7 @@ export const organizersBabil = [
   },
   {
     id:55,
-    name: "Ruqaya",
+    name: "luqaya",
     img: "/images/boqyy.jpg",
     servicesIds: [1, 2, 3],
     city:"babil",
@@ -248,9 +248,9 @@ export const organizersBabil = [
   },
   {
     id:56,
-    name: "Ruqaya",
+    name: "kuqaya",
     img: "/images/boqyy.jpg",
-    servicesIds: [1, 2, 3],
+    servicesIds: [4,5,6],
     city:"babil",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
@@ -259,9 +259,9 @@ export const organizersBabil = [
   },
   {
     id:57,
-    name: "Ruqaya",
+    name: "تجهيزات بارتي",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds: [4,5,6],
     city:"babil",
     phone: '07800077393',
     image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx7lzuRm-mgcD7388y9behAyyZvbleCSSfxA&usqp=CAU',
@@ -271,9 +271,9 @@ export const organizersBabil = [
   },
   {
     id:58,
-    name: "Ruqaya",
+    name: "huqaya",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds: [4,5,6],
     city:"babil",
     phone: '07800077393',
     image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx7lzuRm-mgcD7388y9behAyyZvbleCSSfxA&usqp=CAU',
@@ -283,9 +283,9 @@ export const organizersBabil = [
   },
   {
     id:59,
-    name: "Ruqaya",
+    name: "guqaya",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds: [4,5,6],
     city:"babil",
     phone: '07800077393',
     image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx7lzuRm-mgcD7388y9behAyyZvbleCSSfxA&usqp=CAU',
@@ -295,9 +295,9 @@ export const organizersBabil = [
   },
   {
     id:60,
-    name: "Ruqaya",
+    name: "fuqaya",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds: [4,5,6],
     city:"babil",
     phone: '07800077393',
     image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx7lzuRm-mgcD7388y9behAyyZvbleCSSfxA&usqp=CAU',
@@ -307,9 +307,9 @@ export const organizersBabil = [
   },
   {
     id:61,
-    name: "Ruqaya",
+    name: "duqaya",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds: [4,5,6],
     city:"babil",
     phone: '07800077393',
     image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx7lzuRm-mgcD7388y9behAyyZvbleCSSfxA&usqp=CAU',
@@ -319,9 +319,9 @@ export const organizersBabil = [
   },
   {
     id:62,
-    name: "Ruqaya",
+    name: "suqaya",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds: [7,8,9],
     city:"babil",
     phone: '07800077393',
     image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx7lzuRm-mgcD7388y9behAyyZvbleCSSfxA&usqp=CAU',
@@ -331,9 +331,9 @@ export const organizersBabil = [
   },
   {
     id:63,
-    name: "Ruqaya",
+    name: "الماسا للهدايا",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds:  [7,8,9],
     city:"babil",
     phone: '07800077393',
     image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx7lzuRm-mgcD7388y9behAyyZvbleCSSfxA&usqp=CAU',
@@ -343,9 +343,9 @@ export const organizersBabil = [
   },
   {
     id:64,
-    name: "Ruqaya",
+    name: "ouqaya",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds:  [7,8,9],
     city:"babil",
     phone: '07800077393',
     image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx7lzuRm-mgcD7388y9behAyyZvbleCSSfxA&usqp=CAU',
@@ -355,9 +355,9 @@ export const organizersBabil = [
   },
   {
     id:65,
-    name: "Ruqaya",
+    name: "iuqaya",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds:  [7,8,9],
     city:"babil",
     phone: '07800077393',
     image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx7lzuRm-mgcD7388y9behAyyZvbleCSSfxA&usqp=CAU',
@@ -367,9 +367,9 @@ export const organizersBabil = [
   },
   {
     id:66,
-    name: "Ruqaya",
+    name: "Tmara Cake",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds:  [7,8,9],
     city:"babil",
     phone: '07800077393',
     image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx7lzuRm-mgcD7388y9behAyyZvbleCSSfxA&usqp=CAU',
@@ -379,9 +379,9 @@ export const organizersBabil = [
   },
   {
     id:67,
-    name: "Ruqaya",
+    name: "yuqaya",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds: [10],
     city:"babil",
     phone: '07800077393',
     image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx7lzuRm-mgcD7388y9behAyyZvbleCSSfxA&usqp=CAU',
@@ -391,9 +391,9 @@ export const organizersBabil = [
   },
   {
     id:68,
-    name: "Ruqaya",
+    name: "tuqaya",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds: [10],
     city:"babil",
     phone: '07800077393',
     image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx7lzuRm-mgcD7388y9behAyyZvbleCSSfxA&usqp=CAU',
@@ -403,9 +403,9 @@ export const organizersBabil = [
   },
   {
     id:69,
-    name: "Ruqaya",
+    name: "euqaya",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds: [10],
     city:"babil",
     phone: '07800077393',
     image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx7lzuRm-mgcD7388y9behAyyZvbleCSSfxA&usqp=CAU',
@@ -415,9 +415,21 @@ export const organizersBabil = [
   },
   {
     id:70,
-    name: "Ruqaya",
+    name: "quqaya",
     img: "/images/boqyy.jpg",
-    servicesIds: [10, 2, 3],
+    servicesIds: [10],
+    city:"babil",
+    phone: '07800077393',
+    image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx7lzuRm-mgcD7388y9behAyyZvbleCSSfxA&usqp=CAU',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6mEdKSCWGqxvEup-RvVFzPVhub3DejyIDYw&usqp=CAU',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx7lzuRm-mgcD7388y9behAyyZvbleCSSfxA&usqp=CAU']
+
+  },
+  {
+    id:70,
+    name: "auqaya",
+    img: "/images/boqyy.jpg",
+    servicesIds: [10],
     city:"babil",
     phone: '07800077393',
     image: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx7lzuRm-mgcD7388y9behAyyZvbleCSSfxA&usqp=CAU',

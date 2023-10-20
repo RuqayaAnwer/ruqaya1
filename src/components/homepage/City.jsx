@@ -13,6 +13,7 @@ function City() {
             src="/images/babil.jpg"
             className="card-img-top"
             alt="..."
+            
           />
 
           </div>

@@ -1,24 +1,67 @@
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper-bundle.css';
+import React, { Component } from 'react';
+import '../style.css/sliderwork.css';
 
-export default function SliderWork({ FilteredData }) {
-  if (!FilteredData || FilteredData.length === 0) {
-    return <div>لا توجد بيانات</div>;
+const images = [
+  "/images/cake7.jpg", "/images/hbd3.jpg", "/images/hena22.jpg", "/images/photo.jpg"
+];
+
+class SliderWork extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      currentIndex: 0,
+      isTransitioning: false,
+      goingLeft: false,
+    };
   }
 
-  return (
-    <Swiper
-      spaceBetween={130}
-      slidesPerView={2}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
-    >
-      {FilteredData.map((item, index) => (
-        <SwiperSlide key={index}>
-          <img src={item.image} alt={`slide ${index + 1}`} />
-        </SwiperSlide>
-      ))}
-    </Swiper>
-  );
+  componentDidMount() {
+    window.addEventListener('keyup', this.onKeyUp);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('keyup', this.onKeyUp);
+  }
+
+  onKeyUp = (e) => {
+    if (e.keyCode) {
+      if (e.keyCode === 39) {
+        this.showNextSet();
+      } else if (e.keyCode === 37) {
+        this.showPrevSet();
+      }
+    }
+  }
+
+  render() {
+    const { currentIndex } = this.state;
+
+    return (
+      <div className="carousel__wrapper">
+        <div className="carousel__container">
+          {images && images.map((img, index) => {
+            const className = index === currentIndex ? 'carousel__image active' : 'carousel__image';
+            return <img src={img} className={className} key={`img-${index}`} alt={`Slide ${index}`} />;
+          })}
+        </div>
+        <div className="carousel__controls">
+          <button className="carousel__button" onClick={this.showPrevSet}><i className="fa fa-arrow-left"></i></button>
+          <button className="carousel__button" onClick={this.showNextSet}><i className="fa fa-arrow-right"></i></button>
+        </div>
+      </div>
+    );
+  }
+
+  showPrevSet = () => {
+    const { currentIndex } = this.state;
+    this.setState({ currentIndex: (currentIndex - 1 + images.length) % images.length });
+  }
+
+  showNextSet = () => {
+    const { currentIndex } = this.state;
+    this.setState({ currentIndex: (currentIndex + 1) % images.length });
+  }
 }
+
+export default SliderWork;

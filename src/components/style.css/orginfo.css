@@ -1,9 +1,10 @@
 /* ContactInfo.css */
 .contact-container {
     display: flex;
-    justify-content: space-between;
-    width: 300px; /* تحديد العرض الكلي للعناصر */
-    margin: 0 auto; /* لوسط العناصر أفقياً */
+    justify-content: center;
+    width: 300px; 
+    margin:20px 120px; 
+   
   }
   
   .contact-item {
@@ -12,13 +13,15 @@
   
   .label {
     font-weight: bold;
-    color: #333; /* لون النص */
+    text-align: center;
+    color: #333; 
+    display:grid;
   }
   
   .value {
-    background-color: #f0f0f0; /* لون خلفية العنصر */
+    background-color: #efa963; 
     padding: 10px;
-    border: 1px solid #ccc; /* حدود العنصر */
-    border-radius: 5px; /* زوايا العنصر */
+    
+    border-radius: 5px; 
   }
   
