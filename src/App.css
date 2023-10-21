@@ -6,8 +6,8 @@
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Tajawal', sans-serif;
 }
-.navbar{
-    background: #e7e5ed;
+body{
+  background-color:  #fcf8f3;
 }
 /* .container-form {
     display: flex;

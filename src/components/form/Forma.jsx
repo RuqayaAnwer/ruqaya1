@@ -27,11 +27,11 @@ function Forma() {
   });
 
   return (
-    <div className="grid-container">
+    // <div className="grid-container">
       
 
 
-      <div className="formainfo">
+     
         <form className="form" onSubmit={formik.handleSubmit}>
           <div>
             <h3 style={{textAlign:"center"}}>قدم استفسارك هنا</h3>
@@ -91,9 +91,9 @@ function Forma() {
           </div>
           <button type="submit">إرسال</button>
         </form>
-      </div>
+     
       
-    </div>
+    // </div>
   );
 }
 

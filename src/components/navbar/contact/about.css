@@ -1,63 +1,63 @@
-
-
 .about {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #f79f2453;
-  }
-  
-  .right {
-    text-align: right; /* يمين توجيه النصوص */
-    width: 50%;
-    color:  #7c064d;
-    padding: 20px;
-  }
-  
-  .right h1 {
-    font-size: 24px;
-    color:  #7c064d;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .right p {
-    text-align: right;
-    color:  #7c064d;
-  }
-  
-  .left {
-    width: 50%;
-    display: flex;
-    justify-content: center; /* يُرتب الصور عموديًا وفقًا للشاشات الصغيرة */
-    align-items: center;
-  }
-  
-  .img-container {
-    padding-top: 10%;
-    display: flex;
-    flex-direction: column; /* يُرتب الصور عموديًا */
-    align-items: center;
-    height: 100%;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fcf8f3;
+}
+
+.right {
+  text-align: right;
+  width: 50%;
+  color: #7c064d;
+  padding: 20px;
+}
+
+.right h1 {
+  font-size: 42px;
+  color: #7c064d;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.right p {
+  text-align: right;
+  font-size: large;
+  color: #7c064d;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container {
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.img-stack {
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
   .img-stack {
-    width: 50%;
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 20px; /* تضاف هذه المسافة بين الصور */
+    width: 100%;
   }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-  }
-  @media (max-width: 768px) {
-    .img-stack{
-      width: 100%;
-    }
-    
-  }
-  
+
+}

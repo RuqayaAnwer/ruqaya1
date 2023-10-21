@@ -1,4 +1,4 @@
-.organaizer{
+.organaizer {
   display: flex;
   flex-direction: row;
   /* width: 50%; */
@@ -10,12 +10,13 @@
   gap: 20px;
 
 }
+
 .orginfo {
-  
-  width:20%; 
+
+  width: 20%;
   padding: 10px;
   object-fit: cover;
- 
+
   /* border:  1px solid red; */
 }
 
@@ -27,7 +28,7 @@
 
 
 .orginfo a {
-  text-decoration:double;
+  text-decoration: double;
   text-align: center;
   color: #600a0ace;
   display: block;
@@ -35,7 +36,7 @@
 
 .orginfo a img {
   display: grid;
-  width: 100%; 
+  width: 100%;
   height: auto;
 }
 
@@ -47,10 +48,10 @@
 
 @media (max-width: 768px) {
   .organaizer {
-    flex-direction: column; 
+    flex-direction: column;
   }
 
   .orginfo {
-    width: 100%; 
+    width: 100%;
   }
-} 
+}

@@ -1,6 +1,7 @@
 :root {
-  font-size: 16px; 
+  font-size: 16px;
 }
+
 .homepage {
   position: relative;
   display: flex;
@@ -13,8 +14,8 @@
 
 .homepage .content {
   position: relative;
-  width: 90vw; 
-  height: 70vh; 
+  width: 90vw;
+  height: 70vh;
   border-radius: 10%;
 
 }
@@ -22,7 +23,7 @@
 .homepage img {
   width: 100%;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
   border-radius: 2%;
 
 }
@@ -33,36 +34,42 @@
   right: 0;
   width: 50%;
   height: 100%;
-background: #99776876;
+  background: #99776876;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
   align-items: center;
-  color:white;
+  color: white;
   text-align: center;
   border-radius: 8%;
 
 }
-.span{
-  color: rgb(249, 210, 18);
-  font-weight:1000;
-  box-shadow: rgb(255, 157, 157);
+
+.span {
+  color: rgb(245, 4, 4);
+  font-weight: 1000;
+  font-size: 50px;
+  box-shadow: rgb(244, 240, 240);
 }
 
 .overlay h1 {
   .overlay h1 {
     font-size: 2rem;
   }
-  
+
 }
 
 @media (max-width: 768px) {
   .homepage .content {
     :root {
       font-size: 14px;
-    width: 90%;
-    height: 60vh;
+      width: 90%;
+      height: 60vh;
     }
+  }
+
+  .overlay {
+    width: 100%;
   }
 }

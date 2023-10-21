@@ -10,9 +10,9 @@ function HomePage() {
       <>
          
           <Hero />
-          <h1 style={{textAlign:"center", color:"#240747"}}>اختر مدينتك</h1>
+          <h1 style={{textAlign:"center", color:"#45171d"}}>اختر مدينتك</h1>
           <City />
-          <h1 style={{textAlign:"center",color:"#240747"}}> اهم خدمات بوقي</h1>
+          <h1 style={{textAlign:"center",color:"#45171d"}}> اهم خدمات بوقي</h1>
           <ServSlider />
           
       </>

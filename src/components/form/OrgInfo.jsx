@@ -11,9 +11,9 @@ function OrgInfo({ FilteredData }) {
   return (
     <div className="contact-container">
       <div className="contact-item">
+      <h3 className='works'>{FilteredData[0].name}</h3>
         <div className="label" >:رقم الهاتف   </div>
         <div className="value">{FilteredData[0].phone}</div>
-        <h3 className='works'>{FilteredData[0].name}</h3>
       </div>
     </div>
   );

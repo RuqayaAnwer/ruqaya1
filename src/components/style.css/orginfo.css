@@ -1,27 +1,25 @@
-/* ContactInfo.css */
 .contact-container {
-    display: flex;
-    justify-content: center;
-    width: 300px; 
-    margin:20px 120px; 
-   
-  }
-  
-  .contact-item {
-    text-align: center;
-  }
-  
-  .label {
-    font-weight: bold;
-    text-align: center;
-    color: #333; 
-    display:grid;
-  }
-  
-  .value {
-    background-color: #efa963; 
-    padding: 10px;
-    
-    border-radius: 5px; 
-  }
-  
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  margin: 20px 120px;
+
+}
+
+.contact-item {
+  text-align: center;
+}
+
+.label {
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  display: grid;
+}
+
+.value {
+  background-color:  #ffaaa5;
+  padding: 10px;
+
+  border-radius: 5px;
+}

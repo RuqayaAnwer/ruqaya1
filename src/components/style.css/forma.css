@@ -1,39 +1,39 @@
 .grid-container {
     display: grid;
-    grid-template-columns:1fr 1fr; /* تقسيم الصفحة إلى نصفين */
-    gap: 20px; /* مسافة بين النصفين */
-    width: 50%; /* تحديد العرض الأقصى للصفحة */
-    margin: 20px 60px; /* توسيط الصفحة */
+    grid-template-columns:1fr 1fr; 
+    gap: 20px; 
+    width: 50%; 
+    margin: 20px 60px; 
     padding: 20px;
-    /* تباعد داخلي */
   }
   
-  /* تنسيق نموذج النموذج */
-  rm-container {
-    background-color: #ea640a; /* لون خلفية النموذج */
-    padding: 20px; /* تباعد داخلي */
+  .form-container {
+    color: #421c02;
+    background-color:  #ffd3b6; 
+    width: 100%;
+    padding: 20px; 
     border-radius: 5px; 
-    /* إضافة زوايا مستديرة */
   }
   
   .form {
     text-align: right; 
-    /* محاذاة النص إلى اليمين */
+    background-color: #ffd3b641;
   }
   
   .form h3 {
-    font-size:35px; /* حجم الخط للعنوان */
+    font-size:35px; 
   }
   
   .form label {
     display: block;
-    font-weight: bold; /* نص عريض */
+    font-weight: bold; 
     margin-top: 10px;
   }
   
   .form input,
   .form textarea {
     width: 100%;
+    color: #421c02;
     padding: 10px;
     margin: 5px auto;
     border: 1px solid #fffafa;
@@ -41,9 +41,9 @@
   }
   
   .form button {
-    background-color: #f41515;
+    background-color: #698474d4;
     display: flex;
-    color: #302b2b;
+    color: #ffffff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;

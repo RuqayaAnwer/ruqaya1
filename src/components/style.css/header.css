@@ -1,8 +1,7 @@
-/* styles.css */
+
 
 .navbar {
-    background-color: #ffeed0c0; /* لون خلفية الشريط */
-    color: #fff; /* لون النص */
+    background-color:  #ffd3b6;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,7 +23,8 @@
     list-style: none;
     display: flex;
     font-weight: 1000;
-    gap: 1rem; /* المسافة بين الأزرار */
+    font-size: large;
+    gap: 5rem; /* المسافة بين الأزرار */
   }
   
   .nav-links a {
