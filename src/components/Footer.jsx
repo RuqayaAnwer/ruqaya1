@@ -13,15 +13,18 @@ function Footer() {
           </div>
           <div className="col-md-4 col-lg-4 col-12">
             <h6>تواصل معنا</h6>
-            <p><i className="fas fa-phone"></i> 07859160096</p>
-            <p><i className="fas fa-envelope"></i> eng.ruqayaanwar@gmail.com</p>
+            <p>
+            <a href="https://wa.me/9647727508393" target="_blank"  rel="noreferrer" ><i className="fas fa-phone"></i> 07859160096</a></p>
+            <p><a href='mailto:eng.ruqayaanwar@gmail.com'><i className="fas fa-envelope"></i></a> eng.ruqayaanwar@gmail.com</p>
           </div>
           <div className="col-md-5 col-lg-4 col-12">
             <img src={logo} alt="لوجو" width={100} height={75} />
             <div className="footer-icon">
-              <i className="fab fa-facebook"></i>
-              <i className="fab fa-linkedin"></i>
-              <i className="fab fa-instagram"></i>
+            <a href='https://www.facebook.com/Eng.Ruqayya'> <i className="fab fa-facebook"></i></a>
+              
+              
+              <a href='https://www.linkedin.com/in/ruqaya-anwer-9a2029288/'><i className="fab fa-linkedin"></i></a>
+               <a href='https://www.facebook.com/Eng.Ruqayya'> <i className="fab fa-instagram"></i></a>
             </div>
           </div>
         </div>

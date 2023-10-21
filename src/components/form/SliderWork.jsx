@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../style.css/sliderwork.css';
 
 const images = [
-  "/images/cake7.jpg", "/images/hbd3.jpg", "/images/hena22.jpg", "/images/photo.jpg"
+ "/images/gift8.jpg","/images/cake7.jpg", "/images/hbd3.jpg", "/images/fl2.jpg", "/images/photo.jpg","/images/tma1.jpg","/images/hm1.jpg"
 ];
 
 class SliderWork extends Component {

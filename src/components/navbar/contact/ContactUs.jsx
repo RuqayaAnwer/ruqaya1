@@ -5,7 +5,7 @@ const ContactUs=()=> {
   return (
     <div>
       <HeroContact heading="تواصل معنا" text="اكتب لنا" />
-      <ContactForm/>
+      <ContactForm />
       
     </div>
   )
