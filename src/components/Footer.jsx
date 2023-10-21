@@ -12,10 +12,10 @@ function Footer() {
             
           </div>
           <div className="col-md-4 col-lg-4 col-12">
-            <h6>تواصل معنا</h6>
+            <h6 >تواصل معنا</h6>
             <p>
             <a href="https://wa.me/9647727508393" target="_blank"  rel="noreferrer" ><i className="fas fa-phone"></i> 07859160096</a></p>
-            <p><a href='mailto:eng.ruqayaanwar@gmail.com'><i className="fas fa-envelope"></i></a> eng.ruqayaanwar@gmail.com</p>
+            <p style={{fontWeight:"bold"}}><a href='mailto:eng.ruqayaanwar@gmail.com'><i className="fas fa-envelope"></i></a> eng.ruqayaanwar@gmail.com</p>
           </div>
           <div className="col-md-5 col-lg-4 col-12">
             <img src={logo} alt="لوجو" width={100} height={75} />
