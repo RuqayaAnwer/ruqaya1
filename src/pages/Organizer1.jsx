@@ -4,20 +4,22 @@ import { organizersBaghdad, organizersBabil } from "../Data";
 import '../components/style.css/organizer1.css'
 
 function Organizer1() {
-  const [info, setInfo] = useState("dev");
+  // const [info, setInfo] = useState("");
   const { city, id } = useParams();
-  console.log(city, id);
+  console.log("City:", city);
+  console.log("ID:", id);
+  
 
   const [FilteredData, setFilteredData] = useState([])
 
   useEffect(() => {
-    if (city === "bag") {
-      setFilteredData(organizersBaghdad.filter((e) => e.servicesIds.includes(Number(id))))
-      console.log(organizersBaghdad.filter((e) => e.servicesIds.includes(Number(id))));
+    if (city === "baghdad") {
+      setFilteredData(organizersBaghdad.filter((e) => e.servicesIds.includes(Number(id))));
     } else {
-      setFilteredData(organizersBabil.filter((e) => e.servicesIds.includes(Number(id))))
+      setFilteredData(organizersBabil.filter((e) => e.servicesIds.includes(Number(id))));
     }
-  }, [])
+  }, [city, id]);
+  
 
   // let FilteredData = organizersBaghdad.filter((e) => e.servicesIds.includes(Number(id)) && e.city === city);
   // let FilteredData2 = organizersBabil.filter((e) => e.servicesIds.includes(Number(id)) && e.city === city);
@@ -32,7 +34,7 @@ function Organizer1() {
       {FilteredData.map((organizer) => {
         return (
           <div className="orginfo">
-            <Link to={`/orginiser/form/${organizer.city}/${organizer.id}`}>
+            <Link to={`/orginiser/form/${city}/${organizer.id}`}>
               <img src={organizer.img} alt={organizer.name} />
               <h6 className="organizer">{organizer.name}</h6>
             </Link>

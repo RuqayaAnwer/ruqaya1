@@ -14,6 +14,9 @@ function OrgInfo({ FilteredData }) {
       <h3 className='works'>{FilteredData[0].name}</h3>
         <div className="label" >:رقم الهاتف   </div>
         <div className="value">{FilteredData[0].phone}</div>
+        {/* <div className="valuee">{FilteredData[0].image}</div> */}
+
+
       </div>
     </div>
   );

@@ -6,18 +6,29 @@
   justify-content: center;
   /* border: 5px solid rgb(72, 0, 255); */
   padding: 5rem 0rem;
-  border-radius: 10px;
   gap: 20px;
 
 }
 
 .orginfo {
-
+  border-radius: 10px;
   width: 20%;
   padding: 10px;
   object-fit: cover;
 
   /* border:  1px solid red; */
+}
+.orginfo a {
+  text-decoration: double;
+  text-align: center;
+  color: #600a0ace;
+  display: block;
+}
+.orginfo a img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1; /* تحديد نسبة العرض إلى الارتفاع للصورة */
 }
 
 

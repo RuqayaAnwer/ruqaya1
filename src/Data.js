@@ -1,19 +1,22 @@
 export const organizersBaghdad = [
   {
-    id:1,
-    name: "سدرة للمناسبات",
-    img: "/images/he1.jpg",
+    id: 1,
+    name: "اسطنبول للمناسبات",
+    img: "/images/istan.jpg",
     servicesIds: [1, 2, 3],
-    city:"bag",
-    phone: '07800077393',
-    image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] },
+    city: "baghdad",
+    phone: '07740525429',
+    image: ['/images/boqyy.jpg', '/images/cake7.jpg', '/images/flower9.jpg'],
+    bio: "hello  from thrersdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+
+  },
   {
     id:2,
-    name: "مناسبتي",
-    img: "/images/hen2.jpg",
+    name: "صبح ومسا",
+    img: "/images/sm.jpg",
     servicesIds: [1, 2, 3],
-    city:"bag",
-    phone: '07800077393',
+    city:"baghdad",
+    phone: '07704811098',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
 
   },
@@ -21,8 +24,8 @@ export const organizersBaghdad = [
     id:3,
     name: "كوشات",
     img: "/images/hena2.jpg",
-    servicesIds: [1, 2, 3],
-    city:"bag",
+    servicesIds: [5, 2, 3],
+    city:"baghdad",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
 
@@ -32,7 +35,7 @@ export const organizersBaghdad = [
     name: "بيلا لتنظيم المناسبات",
     img: "/images/tma1.jpg",
     servicesIds: [1,2,3],
-    city:"bag",
+    city:"baghdad",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
 
@@ -42,7 +45,7 @@ export const organizersBaghdad = [
     name: "tma",
     img: "/images/boqyy.jpg",
     servicesIds: [4,5,6],
-    city:"bag",
+    city:"baghdad",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
 
@@ -52,7 +55,7 @@ export const organizersBaghdad = [
     name: "photo",
     img: "/images/boqyy.jpg",
     servicesIds: [4,5,6],
-    city:"bag",
+    city:"baghdad",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
 
@@ -62,7 +65,7 @@ export const organizersBaghdad = [
     name: "الدر",
     img: "/images/boqyy.jpg",
     servicesIds: [4,5,6],
-    city:"bag",
+    city:"baghdad",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
 
@@ -70,9 +73,9 @@ export const organizersBaghdad = [
   {
     id:8,
     name: "الروان",
-    img: "/images/ca2.jpg",
-    servicesIds: [4,5,6],
-    city:"bag",
+    img: "/images/hena223.jpeg",
+    servicesIds: [1,5,6],
+    city:"baghdad",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
 
@@ -82,7 +85,7 @@ export const organizersBaghdad = [
     name: "ميسم للمناسبات",
     img: "/images/ca3.jpg",
     servicesIds: [4,5,6],
-    city:"bag",
+    city:"baghdad",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
 
@@ -92,7 +95,7 @@ export const organizersBaghdad = [
     name: "غيمة ",
     img: "/images/ca1.jpg",
     servicesIds: [7,8,9],
-    city:"bag",
+    city:"baghdad",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
 
@@ -102,7 +105,7 @@ export const organizersBaghdad = [
     name: "فكتوريا",
     img: "/images/fl1.jpg",
     servicesIds: [7,8,9],
-    city:"bag",
+    city:"baghdad",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
 
@@ -112,7 +115,7 @@ export const organizersBaghdad = [
     name: "ليلو",
     img: "/images/he1.jpg",
     servicesIds:  [7,8,9],
-    city:"bag",
+    city:"baghdad",
     phone: '07800077393',
     image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
 
@@ -122,7 +125,7 @@ export const organizersBaghdad = [
     name: "ميلانو للمناسبات",
     img: "/images/fl2.jpg",
     servicesIds:  [7,8,9],
-    city:"bag",
+    city:"baghdad",
     phone: '07800077393',
   },
   {
@@ -130,7 +133,7 @@ export const organizersBaghdad = [
     name: "لمسة فن للمناسبات",
     img: "/images/ca1.jpg",
     servicesIds:  [7,8,9],
-    city:"bag",
+    city:"baghdad",
     phone: '07800077393',
   },
   {
@@ -138,7 +141,7 @@ export const organizersBaghdad = [
     name: "مروش للمناسبات",
     img: "/images/fl2.jpg",
     servicesIds: [10],
-    city:"bag",
+    city:"baghdad",
     phone: '07800077393',
   },
   {
@@ -146,7 +149,7 @@ export const organizersBaghdad = [
     name: "اليسر",
     img: "/images/fl3.jpg",
     servicesIds: [10],
-    city:"bag",
+    city:"baghdad",
     phone: '07800077393',
   },
   {
@@ -154,7 +157,7 @@ export const organizersBaghdad = [
     name: "ميكانو هاند ميد",
     img: "/images/fl1.jpg",
     servicesIds: [10],
-    city:"bag",
+    city:"baghdad",
     phone: '07800077393',
   },
   {
@@ -162,7 +165,7 @@ export const organizersBaghdad = [
     name: "ريحانة هاند ميد",
     img: "/images/boqyy.jpg",
     servicesIds: [10],
-    city:"bag",
+    city:"baghdad",
     phone: '07800077393',
   },
   {
@@ -170,7 +173,7 @@ export const organizersBaghdad = [
     name: "ماشه هاند ميد",
     img: "/images/boqyy.jpg",
     servicesIds: [10],
-    city:"bag",
+    city:"baghdad",
     phone: '07800077393',
   },
   // {
@@ -178,7 +181,7 @@ export const organizersBaghdad = [
   //   name: "Ruqaya",
   //   img: "/images/boqyy.jpg",
   //   servicesIds: [10, 2, 3],
-  //   city:"bag",
+  //   city:"baghdad",
   //   phone: '07800077393',
   // },
   // {
@@ -186,7 +189,7 @@ export const organizersBaghdad = [
   //   name: "Ruqaya",
   //   img: "/images/boqyy.jpg",
   //   servicesIds: [10, 2, 3],
-  //   city:"bag",
+  //   city:"baghdad",
   //   phone: '07800077393',
   // },
 
@@ -202,7 +205,7 @@ export const organizersBabil = [
     servicesIds: [1, 2, 3],
     city:"babil",
     phone: '07800077393',
-    image: ['/images/boqyy.jpg','/images/cake7.jpg','/images/flower9.jpg'] 
+    image: ["/images/boqyy.jpg",'/images/cake7.jpg','/images/flower9.jpg'] 
 
   },
   {

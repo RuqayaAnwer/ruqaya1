@@ -1,6 +1,6 @@
-:root {
+/* :root {
   font-size: 16px;
-}
+} */
 
 .homepage {
   position: relative;
@@ -46,12 +46,12 @@
 
 }
 
-.span {
+/* .span {
   color: rgb(245, 4, 4);
   font-weight: 1000;
   font-size: 50px;
   box-shadow: rgb(244, 240, 240);
-}
+} */
 
 .overlay h1 {
   .overlay h1 {

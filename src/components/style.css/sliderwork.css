@@ -16,16 +16,18 @@
 	border-radius: 5px;
 	box-shadow: 0 1rem 2rem rgba(rgb(249, 141, 73), .2);
 	margin:0rem auto;
-	width: 500px;
+	width: 700px;
 }
 
 .carousel__controls {
 	display: flex;
+	width: 70%;
+	background-color:antiquewhite;
 }
 
 .carousel__container {
 	display: flex;
-	height: 350px;
+	height: 500px;
 	position: relative;
 	overflow: hidden;
 	object-fit: cover;
@@ -34,7 +36,7 @@
 .carousel__image {
 	position: absolute;
 	object-fit: cover;
-	width: 100%;
+	width: 70%;
 	left: 0;
 	opacity: 0;
 	top: 0;
@@ -59,6 +61,11 @@
 	transition: all .1s ease-out;
 
 	
+}
+.aamal{
+	width: 70%;
+	padding: 5px;
+	text-align: center;
 }
 @media (max-width: 768px) {
 

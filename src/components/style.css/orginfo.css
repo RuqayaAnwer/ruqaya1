@@ -15,11 +15,13 @@
   text-align: center;
   color: #333;
   display: grid;
+
 }
 
 .value {
-  background-color:  #ffaaa5;
+  background-color:  #ffa9a5e3;
   padding: 10px;
 
   border-radius: 5px;
+
 }

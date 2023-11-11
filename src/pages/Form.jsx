@@ -13,8 +13,8 @@ function Form() {
   const [FilteredData, setFilteredData] = useState([]);
 
   useEffect(() => {
-    if (city === "bag") {
-      setFilteredData(organizersBaghdad.filter((e) => e.id === id));
+    if (city === "baghdad") {
+      setFilteredData(organizersBaghdad.filter((e) => e.id === Number(id)));
     } else {
       setFilteredData(organizersBabil.filter((e) => e.id === Number(id)));
     }
@@ -32,7 +32,7 @@ function Form() {
         </div> */}
       </div>
       <div className="sliderinfo">
-          <h1 style={{ textAlign: "center" }}>صور من اعمالهم </h1>
+          <h1 className="aamal">صور من اعمالهم </h1>
           <SliderWork />
         </div>
 
