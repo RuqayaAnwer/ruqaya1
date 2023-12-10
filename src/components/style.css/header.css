@@ -11,7 +11,7 @@
     width: 30vw;
   }
   .navbar-toggler{
-    display: none;
+    display:grid;
   }
   
   .navbar .logo img {
@@ -36,7 +36,7 @@
   /* تنسيق الزر النشط (الصفحة الحالية) */
   .nav-links a.active {
     font-weight: bold;
-    /* يمكنك تخصيص المزيد من الخصائص حسب رغبتك */
+   
   }
   .menu-button{
     display:flex;
@@ -54,9 +54,6 @@
       display: none;
       position: relative;
 
-     
-      
-
     }
     .navbar-toggler{
       display: flex;
@@ -64,15 +61,16 @@
     }
   
     .menu-button {
-      display:flex; /* اعرض زر القائمة */
+      display:flex;
+      color: black; /* اعرض زر القائمة */
     }
   
     .menu.active {
-      display: flex; /* اعرض محتوى النافبار */
+      display: flex; 
       position: absolute;
       flex-direction: column;
       top: 5rem;
-      background-color: rgba(244, 170, 118, 0.582);
+      background-color: rgba(30, 29, 28, 0.582);
       z-index: 990;
       width: 10rem;
       height: 5rem;

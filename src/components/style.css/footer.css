@@ -46,9 +46,12 @@
 }
 
 @media (max-width: 768px) {
-  .footer-content {
+  /* .footer-content {
     grid-template-areas:
       "logo"
       "contact";
+  } */
+  .footer{
+    display: none;
   }
 }
